@@ -4,7 +4,7 @@ The logo class contains functions to show or return the logo of sliver.
 ## Syntax
 ```c
 STRING Logo.get(
-	NUMBER offset // default is 0
+  NUMBER offset // default is 0
 )
 ```
 ## Parameters
