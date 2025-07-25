@@ -11,11 +11,11 @@ STRING Logo.get(
 
 `offset`
 
-Type: number
+Type: **number**
 
 The number of spaces before the logo (default is 0).
 ## Return value
-Type: string
+Type: **string**
 
 The logo is returned as a string.
 

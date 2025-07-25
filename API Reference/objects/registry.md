@@ -1,5 +1,5 @@
 # REGISTRY - object
-The registry a database containing the core and all other objects of sliver.
+The registry is a database containing the core and all other objects of sliver.
 This is a place where you can modify just about anything, so be careful and know what you're doing.
 
 ```c

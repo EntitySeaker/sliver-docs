@@ -11,11 +11,11 @@ NULL Logo.show(
 
 `offset`
 
-Type: number
+Type: **number**
 
 The number of spaces before the logo (default is 0).
 ## Return value
-Type: null
+Type: **null**
 
 The logo is printed and nothing is returned.
 
