@@ -4,19 +4,19 @@ This is a place where you can modify just about anything, so be careful and know
 
 ```c
 REGISTRY {
-  version         // Contains the version of sliver.
-  init            // Contains the root starting point of sliver.
-  start           // Contains the starting point of the sliver instance.
-  sessions        // Contains all collected sessions.
-  session         // Contains the session that is currently in use.
-  session_history // Contains a buffer of the last 100 sessions.
-  commands        // Contains all commands of sliver.
-  cmd_history     // Contains a buffer of the last 100 used commands.
-  vars            // Contains all variables.
-  macros          // Contains all macros.
-  wordlists       // Contains all wordlists.
-  exploitdb       // Contains a collection of known exploits.
-  libs            // Contains a collection of imported libraries.
-  dlls            // Contains a collection of imported dlls.	
+  STRING   version         // Contains the version of sliver.
+  SESSION  init            // Contains the root starting point of sliver.
+  SESSION  start           // Contains the starting point of the sliver instance.
+  ARRAY    sessions        // Contains all collected sessions.
+  SESSION* session         // Contains a pointer to the session that is currently in use.
+  ARRAY    session_history // Contains a buffer of the last 100 sessions.
+  MAP      commands        // Contains all commands of sliver.
+  ARRAY    cmd_history     // Contains a buffer of the last 100 used commands.
+  MAP      vars            // Contains all variables.
+  MAP      macros          // Contains all macros.
+  MAP      wordlists       // Contains all wordlists.
+  MAP      exploitdb       // Contains a collection of known exploits.
+  MAP      libs            // Contains a collection of imported libraries.
+  MAP      dlls            // Contains a collection of imported dlls.	
 }
 ```
