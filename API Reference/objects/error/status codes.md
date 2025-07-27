@@ -1,3 +1,4 @@
+# Status codes
 `STATUS_OK` <br> `STATUS_OK_FULL`
 
 `STATUS_INFO` <br> `STATUS_INFO_FULL`
