@@ -1,0 +1,15 @@
+`STATUS_OK`
+`STATUS_OK_FULL`
+
+`STATUS_INFO`
+`STATUS_INFO_FULL`
+
+`STATUS_WARN`
+`STATUS_WARN_FULL`
+
+`STATUS_ERR`
+`STATUS_ERR_FULL`
+### Example:
+```lua
+print(STATUS_OK+"Operation success!")
+```
